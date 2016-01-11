@@ -4,15 +4,99 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>自己紹介（asugimoto）</title>
+    <meta name="description" content="自己紹介、作成したアプリケーションの紹介"/>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+     body {
+       background-color: #ccc;
+     }
+     
+     .container {
+       background-color: white;
+       margin: 10px;
+     }
+     
+      #pic {
+        padding: 10px;
+        text-align: center;
+      }
+
+      #pic img{
+        max-width: 120px;
+      }
+      
+      .thumbnail img{
+        max-width: 150px;
+      }
+      
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container fluid">
+      <div class="page-header">
+        <h2>自己紹介</h2>
+      </div>
+      <div class="row">
+        <div id="pic" class="col-sm-3" style="background-color:white;">
+          <img src="wario.png" alt="" /><br>
+          <h3>asugimoto</h3>
+        </div>
+        <div class="col-sm-9" style="background-color:white;">
+          <p>最近、従来から関心のあったプログラミングの勉強を始めました。文系出身、かつ経歴もプログラミングとは程遠いですがよろしくお願いします。</p>
+          <p>大学卒業後、投資銀行にて金融機関・事業会社・政府機関の資金調達に従事していました。米国留学（1年）、海外勤務（6か月、香港）経験有り。</p>
+          <p>30歳になったのを機に、医学の道に進むことを決断、2016年4月に医学部２年生に編入します。</p>
+          <p>私のGitHubユーザーページは、<a href="https://github.com/asugimoto" target="_blank">こちら</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="container fluid">
+      <div class="page-header">
+        <h2>ポートフォリオ</h2>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <div class="thumbnail">
+            <img src="image1.jpeg" alt="">
+            <div class="caption">
+              <h3>App1</h3>
+              <p>App1概要</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="thumbnail">
+            <img src="image1.jpeg" alt="">
+            <div class="caption">
+              <h3>App2</h3>
+              <p>App2概要</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="thumbnail">
+            <img src="image1.jpeg" alt="">
+            <div class="caption">
+              <h3>App3</h3>
+              <p>App3概要</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="thumbnail">
+            <img src="image1.jpeg" alt="">
+            <div class="caption">
+              <h3>App4</h3>
+              <p>App4概要</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
